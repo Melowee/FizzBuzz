@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: testss.etsss.AppTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.18 s - in testss.etsss.AppTest
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.161 s <<< FAILURE! - in testss.etsss.AppTest
+testDoFizzBuzz_NumberDivisibleBy5_ShouldReturnBuzz(testss.etsss.AppTest)  Time elapsed: 0.027 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Buzz]> but was:<[]>
+	at testss.etsss.AppTest.testDoFizzBuzz_NumberDivisibleBy5_ShouldReturnBuzz(AppTest.java:47)
+
+testDoFizzBuzz_NumberDivisbleBy3And5_ShouldReturnFizzBuzz(testss.etsss.AppTest)  Time elapsed: 0.002 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[FizzBuzz]> but was:<[]>
+	at testss.etsss.AppTest.testDoFizzBuzz_NumberDivisbleBy3And5_ShouldReturnFizzBuzz(AppTest.java:61)
+
+testDoFizzBuzz_NumberDivisibleBy3_ShouldReturnFizz(testss.etsss.AppTest)  Time elapsed: 0.007 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Fizz]> but was:<[]>
+	at testss.etsss.AppTest.testDoFizzBuzz_NumberDivisibleBy3_ShouldReturnFizz(AppTest.java:33)
+

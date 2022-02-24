@@ -16,6 +16,6 @@ public class FizzBuzz {
 			return number + "";
 		}
 		
-		return "";
+		return result;
 	}
 }
